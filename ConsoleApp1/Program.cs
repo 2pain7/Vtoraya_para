@@ -10,13 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            double x = 3;
-            double sum = 0;
-            for (double i = 1; i <= 10; i++)
-            {
-                sum += Math.Pow(x, i) / (x + i);
-            }
-            Console.WriteLine(sum);
+            Console.WriteLine("привет мир");
         }
     }
 }
